@@ -1,6 +1,6 @@
 const express = require("express"),
     app = express(),
-    port = 3000,
+    port = process.env.PORT || 3000,
     between = require("./functions/between.js"),
     findById = require("./functions/findById"),
     findByTag = require("./functions/findByTag"),
