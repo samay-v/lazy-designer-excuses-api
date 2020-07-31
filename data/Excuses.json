@@ -1,0 +1,501 @@
+[{
+        "id": 1,
+        "Excuse": "This is what Apple does.",
+        "Tag": "inspiration"
+    },
+    {
+        "id": 2,
+        "Excuse": "It’s a Material design thing.",
+        "Tag": "inspiration"
+    },
+    {
+        "id": 3,
+        "Excuse": "x does it like this, and they have like 500M users.",
+        "Tag": "inspiration"
+    },
+    {
+        "id": 4,
+        "Excuse": "This is how everyone does it. We should do it this way.",
+        "Tag": "inspiration"
+    },
+    {
+        "id": 5,
+        "Excuse": "This is how everyone does it. We shouldn’t do it this way.",
+        "Tag": "inspiration"
+    },
+    {
+        "id": 6,
+        "Excuse": "I wanted to try something different.",
+        "Tag": "design"
+    },
+    {
+        "id": 7,
+        "Excuse": "I saw a design on Tumblr that looks like this.",
+        "Tag": "design"
+    },
+    {
+        "id": 8,
+        "Excuse": "Whitespace looks better. It looks so clean!",
+        "Tag": "design"
+    },
+    {
+        "id": 9,
+        "Excuse": "We’re industry leaders. Sometimes you just have to take risks.",
+        "Tag": "design"
+    },
+    {
+        "id": 10,
+        "Excuse": "That must be an older version you’re seeing.",
+        "Tag": "design"
+    },
+    {
+        "id": 11,
+        "Excuse": "I [got a Masters/did online training/saw a tweet], so trust me on this.",
+        "Tag": "design"
+    },
+    {
+        "id": 12,
+        "Excuse": "I just read* a great article on Medium about this (*saw the title).",
+        "Tag": "design"
+    },
+    {
+        "id": 13,
+        "Excuse": "We’ll just revisit this after the launch (we won’t).",
+        "Tag": "design"
+    },
+    {
+        "id": 14,
+        "Excuse": "Our team loved the design.",
+        "Tag": "design"
+    },
+    {
+        "id": 15,
+        "Excuse": "[The most important stakeholder] loved the design.",
+        "Tag": "design"
+    },
+    {
+        "id": 16,
+        "Excuse": "Dribbble and Behance loved the design.",
+        "Tag": "design"
+    },
+    {
+        "id": 17,
+        "Excuse": "The old man sitting on the couch with me at Starbucks loved the design.",
+        "Tag": "design"
+    },
+    {
+        "id": 18,
+        "Excuse": "We can go with function or form, but not both.",
+        "Tag": "design"
+    },
+    {
+        "id": 19,
+        "Excuse": "We can change it, I’m not married to it (our honeymoon is tomorrow).",
+        "Tag": "design"
+    },
+    {
+        "id": 20,
+        "Excuse": "It’s like Uber, but for [super specific, unrelated B2B software app].",
+        "Tag": "design"
+    },
+    {
+        "id": 21,
+        "Excuse": "It’s like [app no one has heard of], but for [some worse idea].",
+        "Tag": "design"
+    },
+    {
+        "id": 22,
+        "Excuse": "We’ll just put some charts there.",
+        "Tag": "design"
+    },
+    {
+        "id": 23,
+        "Excuse": "It’s a delighter!",
+        "Tag": "animation"
+    },
+    {
+        "id": 24,
+        "Excuse": "It’s not choppy on my screen.",
+        "Tag": "animation"
+    },
+    {
+        "id": 25,
+        "Excuse": "GIFs are all the rage right now.",
+        "Tag": "animation"
+    },
+    {
+        "id": 26,
+        "Excuse": "All the best companies use parallax.",
+        "Tag": "animation"
+    },
+    {
+        "id": 27,
+        "Excuse": "Don’t you think it’ll look boring without it?",
+        "Tag": "animation"
+    },
+    {
+        "id": 28,
+        "Excuse": "I’m not worried. A dev should be able to implement this pretty easily.",
+        "Tag": "animation"
+    },
+    {
+        "id": 29,
+        "Excuse": "But if I make it a PDF then you won’t see the animation…",
+        "Tag": "animation"
+    },
+    {
+        "id": 30,
+        "Excuse": "Computers are fast! Page size and load time aren’t an issue anymore.",
+        "Tag": "animation"
+    },
+    {
+        "id": 31,
+        "Excuse": "You must not have [that obscure font I used] installed.",
+        "Tag": "typography"
+    },
+    {
+        "id": 32,
+        "Excuse": "Microsoft is notorious for bad font rendering. People don’t use Windows.",
+        "Tag": "typography"
+    },
+    {
+        "id": 33,
+        "Excuse": "I can’t share TypeKit fonts, so you’ll have to wait until we present it.",
+        "Tag": "typography"
+    },
+    {
+        "id": 34,
+        "Excuse": "The sharpness is probably just too high on your screen.",
+        "Tag": "typography"
+    },
+    {
+        "id": 35,
+        "Excuse": "We won’t look premium if we don’t use [some obscure font].",
+        "Tag": "typography"
+    },
+    {
+        "id": 36,
+        "Excuse": "Too small? How can you not read that?",
+        "Tag": "typography"
+    },
+    {
+        "id": 37,
+        "Excuse": "The text is already dark enough. I like it #FAFAFA.",
+        "Tag": "typography"
+    },
+    {
+        "id": 38,
+        "Excuse": "Your [TV/phone/monitor/tablet/Palm Pilot] probably isn’t calibrated.",
+        "Tag": "color"
+    },
+    {
+        "id": 39,
+        "Excuse": "The brand palette is too limited for what we want to do.",
+        "Tag": "color"
+    },
+    {
+        "id": 40,
+        "Excuse": "It’s softer on the eyes this way.",
+        "Tag": "color"
+    },
+    {
+        "id": 41,
+        "Excuse": "I wanted it to really stand out. You know…super punchy.",
+        "Tag": "color"
+    },
+    {
+        "id": 42,
+        "Excuse": "It’s the Pantone color of the year!",
+        "Tag": "color"
+    },
+    {
+        "id": 43,
+        "Excuse": "InVision must be acting up.",
+        "Tag": "tools"
+    },
+    {
+        "id": 44,
+        "Excuse": "You’re probably looking at a cached version.",
+        "Tag": "tools"
+    },
+    {
+        "id": 45,
+        "Excuse": "It must not have synced to [Dropbox/Google Drive].",
+        "Tag": "tools"
+    },
+    {
+        "id": 46,
+        "Excuse": "That’s just a bug in Sketch.",
+        "Tag": "tools"
+    },
+    {
+        "id": 47,
+        "Excuse": "It screwed up the design when I updated my app.",
+        "Tag": "tools"
+    },
+    {
+        "id": 48,
+        "Excuse": "That’s probably a limitation of the app.",
+        "Tag": "tools"
+    },
+    {
+        "id": 49,
+        "Excuse": "We’re still on the free version.",
+        "Tag": "tools"
+    },
+    {
+        "id": 50,
+        "Excuse": "Sorry, I’ve been updating Adobe applications all day.",
+        "Tag": "tools"
+    },
+    {
+        "id": 51,
+        "Excuse": "My design application keeps crashing.",
+        "Tag": "tools"
+    },
+    {
+        "id": 52,
+        "Excuse": "Dev must have screwed it up.",
+        "Tag": "development"
+    },
+    {
+        "id": 53,
+        "Excuse": "No one uses IE anyway.",
+        "Tag": "development"
+    },
+    {
+        "id": 54,
+        "Excuse": "That must be a bug in Chrome.",
+        "Tag": "development"
+    },
+    {
+        "id": 55,
+        "Excuse": "That effect should be supported in the latest nightly build of Chrome.",
+        "Tag": "development"
+    },
+    {
+        "id": 56,
+        "Excuse": "Just have dev draw it in CSS.",
+        "Tag": "development"
+    },
+    {
+        "id": 57,
+        "Excuse": "I think this should be really easy with a framework.",
+        "Tag": "development"
+    },
+    {
+        "id": 58,
+        "Excuse": "A user would never do that anyway (they will).",
+        "Tag": "development"
+    },
+    {
+        "id": 59,
+        "Excuse": "Our users all have MacBooks and use Chrome.",
+        "Tag": "development"
+    },
+    {
+        "id": 60,
+        "Excuse": "Oh come on, no one builds Android apps anymore.",
+        "Tag": "development"
+    },
+    {
+        "id": 61,
+        "Excuse": "What do you mean your projector isn’t 4K?",
+        "Tag": "presentation"
+    },
+    {
+        "id": 62,
+        "Excuse": "You shouldn’t have your screen brightness all the way down.",
+        "Tag": "presentation"
+    },
+    {
+        "id": 63,
+        "Excuse": "Hmm, it doesn’t look like that on my computer.",
+        "Tag": "presentation"
+    },
+    {
+        "id": 64,
+        "Excuse": "Isn’t your display retina?",
+        "Tag": "presentation"
+    },
+    {
+        "id": 65,
+        "Excuse": "Maybe it got caught in your spam.",
+        "Tag": "email"
+    },
+    {
+        "id": 66,
+        "Excuse": "I’m guessing it just looks bad in “Preview” mode.",
+        "Tag": "email"
+    },
+    {
+        "id": 67,
+        "Excuse": "Ah sorry, the file is too big to send. I’ll show you next week.",
+        "Tag": "email"
+    },
+    {
+        "id": 68,
+        "Excuse": "Oh, I sent it to the wrong “Petr Rozhdestvenskiy.”",
+        "Tag": "email"
+    },
+    {
+        "id": 69,
+        "Excuse": "I just sent it over (lie). Did it not go through?",
+        "Tag": "email"
+    },
+    {
+        "id": 70,
+        "Excuse": "My colleague was supposed to send it (oh sh*t, I completely forgot).",
+        "Tag": "email"
+    },
+    {
+        "id": 71,
+        "Excuse": "I forgot to add you to that email thread (I didn’t).",
+        "Tag": "email"
+    },
+    {
+        "id": 72,
+        "Excuse": "I’m almost done, but don’t want to spoil it (I haven’t started yet).",
+        "Tag": "progress"
+    },
+    {
+        "id": 73,
+        "Excuse": "We can figure out the details in code.",
+        "Tag": "progress"
+    },
+    {
+        "id": 74,
+        "Excuse": "I’m not worried about that right now.",
+        "Tag": "progress"
+    },
+    {
+        "id": 75,
+        "Excuse": "We have it designed on the whiteboard back at the office (I’m stalling).",
+        "Tag": "progress"
+    },
+    {
+        "id": 76,
+        "Excuse": "I don’t want to distract you with low-fidelity.",
+        "Tag": "progress"
+    },
+    {
+        "id": 77,
+        "Excuse": "It’s not what you asked for and I’m afraid you’ll get mad.",
+        "Tag": "progress"
+    },
+    {
+        "id": 78,
+        "Excuse": "It’s taking longer than I thought (again…I haven’t started yet).",
+        "Tag": "progress"
+    },
+    {
+        "id": 79,
+        "Excuse": "Sorry, my computer has been really laggy today.",
+        "Tag": "progress"
+    },
+    {
+        "id": 80,
+        "Excuse": "Can we do a remote meeting today (so I can work on another project)?",
+        "Tag": "progress"
+    },
+    {
+        "id": 81,
+        "Excuse": "I can’t start until I have all of the requirements.",
+        "Tag": "starting"
+    },
+    {
+        "id": 82,
+        "Excuse": "I can’t start until research is done.",
+        "Tag": "starting"
+    },
+    {
+        "id": 83,
+        "Excuse": "I can’t start until we document all edge-cases.",
+        "Tag": "starting"
+    },
+    {
+        "id": 84,
+        "Excuse": "I can’t start until we decide on a color.",
+        "Tag": "starting"
+    },
+    {
+        "id": 85,
+        "Excuse": "I can’t start until we decide on a name.",
+        "Tag": "starting"
+    },
+    {
+        "id": 86,
+        "Excuse": "I can’t start until all 29 people join the conference call.",
+        "Tag": "starting"
+    },
+    {
+        "id": 87,
+        "Excuse": "I was watching the Apple Keynote.",
+        "Tag": "starting"
+    },
+    {
+        "id": 88,
+        "Excuse": "We can always iterate on this (we probably won’t).",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 89,
+        "Excuse": "This isn’t the final design (lol, yes it is).",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 90,
+        "Excuse": "We should probably use a hamburger menu.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 91,
+        "Excuse": "We’re definitely not using a hamburger menu.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 92,
+        "Excuse": "That wasn’t in the original requirements (I skipped that intentionally).",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 93,
+        "Excuse": "design rules are meant to be broken.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 94,
+        "Excuse": "Dev has really been holding me back.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 95,
+        "Excuse": "You just haven’t seen it done this way before.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 96,
+        "Excuse": "This is what your napkin sketch looked like, right?",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 97,
+        "Excuse": "I basically just did what my PM told me to do.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 98,
+        "Excuse": "We’ll work on it next sprint.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 99,
+        "Excuse": "It’s better than what we have.",
+        "Tag": "disagreement "
+    },
+    {
+        "id": 100,
+        "Excuse": "We’ll just put it in a modal.",
+        "Tag": "disagreement "
+    }
+]
