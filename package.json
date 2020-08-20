@@ -5,13 +5,11 @@
     "main": "index.js",
     "scripts": {
         "devStart": "nodemon server.js"
-
     },
     "author": "Samay Verma",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1",
-        "nodemon": "^2.0.4"
+        "express": "^4.17.1"
     },
     "engines": {
         "node": "12.16.1"

@@ -1,11 +1,41 @@
 const express = require("express"),
     app = express(),
     port = process.env.PORT || 3000,
-    between = require("./functions/between.js"),
-    findById = require("./functions/findById"),
-    findByTag = require("./functions/findByTag"),
     excuses = require("./data/Excuses.json"),
     allTags = require("./data/tags.json");
+
+//////////////////////////////////////////funuctions//////////////////////////////////////////
+const between = function(min, max) {
+    return Math.floor(
+        Math.random() * (max - min) + min
+    )
+}
+
+const findById = function(id) {
+    let i;
+    for (i = 0; excuses.length > i; i += 1) {
+        if (excuses[i].id === id) {
+            return excuses[i];
+        }
+    }
+}
+
+const findByTag = function(tag) {
+    tag = tag.toLowerCase();
+    let i;
+    let excusesInTag = [];
+
+    for (i = 0; excuses.length > i; i += 1) {
+        if (excuses[i].Tag == tag) {
+            excusesInTag.push(excuses[i]);
+        }
+    }
+    return excusesInTag;
+};
+//////////////////////////////////////////end of funuctions//////////////////////////////////////////
+
+
+//////////////////////////////////////////Routes//////////////////////////////////////////
 
 // Get a random excuse
 app.get('/random', (req, res) => {
@@ -15,12 +45,18 @@ app.get('/random', (req, res) => {
 
 //Get a random excuse from a specific tag
 app.get('/random/:tag', (req, res) => {
-    let excusesInTag = findByTag(String(req.params.tag));
-    if (excusesInTag) {
-        res.send(excusesInTag);
+    let excusesInTag = findByTag(String(req.params.tag))
+    excuseInTag = excusesInTag[Math.floor(Math.random() * excusesInTag.length)];
+    if (excuseInTag) {
+        res.send(excuseInTag);
     } else {
         res.sendStatus(404)
     }
+})
+
+//Get all excuses
+app.get('/all', (req, res) => {
+    res.send(excuses);
 })
 
 //Get all tags
@@ -28,19 +64,24 @@ app.get("/tags", (req, res) => {
     res.send(allTags);
 })
 
-//Get all excuses
-app.get('/excuse/all', (req, res) => {
-    res.send(excuses);
+//get the number of total excuses
+app.get("/total", (req, res) => {
+    res.send({ 'length': excuses.length });
 })
 
-//get the number of total excuses
-app.get('/excuse/total', (req, res) => {
-    let length = { 'length': excuses.length }
-    res.send(length);
+//Get all excuses by in a spesific tag
+
+app.get("/all/:tag", (req, res) => {
+    let excusesInTag = findByTag(String(req.params.tag))
+    if (excusesInTag) {
+        res.send(excusesInTag);
+    } else {
+        res.sendStatus(404)
+    }
 })
 
 //Get an excuse by id
-app.get('/excuse/:id', (req, res) => {
+app.get('/:id', (req, res) => {
     if (req.params.id <= excuses.length && req.params.id > 0) {
         res.send(findById(parseInt(req.params.id)))
     } else {
@@ -48,7 +89,6 @@ app.get('/excuse/:id', (req, res) => {
     }
 })
 
-
-
+//Don't add a route under this. add it above the id route, dumbo
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
