@@ -2,9 +2,17 @@ const express = require("express"),
     app = express(),
     serverless = require("serverless-http"),
     excuses = require("../data/Excuses.json"),
+    rateLimit = require("express-rate-limit"),
     allTags = require("../data/tags.json");
 
 //////////////////////////////////////////funuctions//////////////////////////////////////////
+
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes window
+    max: 5, // start blocking after 5 requests
+    message: "Too many requests from this IP, you'll pay my server cost?!"
+});
+
 const between = function(min, max) {
     return Math.floor(
         Math.random() * (max - min) + min
@@ -99,6 +107,8 @@ app.get('/:id', (req, res) => {
         res.sendStatus(404);
     }
 })
+
+app.use(limiter);
 
 //Don't add a route under this. add it above the id route, dumbo
 
