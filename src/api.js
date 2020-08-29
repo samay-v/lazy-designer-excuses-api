@@ -3,6 +3,7 @@ const express = require("express"),
     router = express.Router(),
     serverless = require("serverless-http"),
     excuses = require("../data/Excuses.json"),
+    path = require("path"),
     allTags = require("../data/tags.json");
 
 //////////////////////////////////////////funuctions//////////////////////////////////////////
@@ -45,6 +46,13 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
+
+
+//home page
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+})
 
 // Get a random excuse
 app.get('/random', (req, res) => {
@@ -100,7 +108,7 @@ app.get('/:id', (req, res) => {
 
 //Don't add a route under this. add it above the id route, dumbo
 
-// app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+// app.listen(3000, () => console.log(`Example app listening at http://localhost:3000`))
 
 // app.use(`/.netlify/functions/api`, router);
 
