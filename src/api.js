@@ -1,9 +1,7 @@
 const express = require("express"),
     app = express(),
-    router = express.Router(),
     serverless = require("serverless-http"),
     excuses = require("../data/Excuses.json"),
-    path = require("path"),
     allTags = require("../data/tags.json");
 
 //////////////////////////////////////////funuctions//////////////////////////////////////////
@@ -39,6 +37,9 @@ const findByTag = function(tag) {
 
 //////////////////////////////////////////Routes//////////////////////////////////////////
 
+app.set("view engine", "ejs");
+
+
 //f*&# CORS
 
 app.use(function(req, res, next) {
@@ -46,13 +47,6 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
-
-
-//home page
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
-})
 
 // Get a random excuse
 app.get('/random', (req, res) => {
