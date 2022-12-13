@@ -10,7 +10,7 @@
     "author": "Samay Verma",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "netlify-lambda": "^2.0.1",
         "serverless-http": "^2.5.0"
     },
